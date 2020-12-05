@@ -1,0 +1,48 @@
+.avatar {
+    vertical-align: middle;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+  }
+
+
+  [12:01, 05/12/2020] Sandeep Mishra Manit: html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Avenir Next";
+}
+
+li {
+  list-style: none;
+}
+
+/* Write your code below */
+.header{
+  background-color :whitesmoke;
+  color: #xxx;
+  height: 90px;
+}
+.logo{
+  padding: 40px 40px;
+  font-size: 20px;
+  float: left;
+}
+.menu{
+  float: left;
+  
+}
+.menu li{
+  padding: 33px 20px;
+   color: black;
+   float: left;
+}
+.main{
+  height: 90px;
+}
+[12:01, 05/12/2020] Sandeep Mishra Manit: <!DOCTYP
