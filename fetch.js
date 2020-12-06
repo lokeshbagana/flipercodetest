@@ -3,8 +3,9 @@ fetch('https://f0ztti2nsk.execute-api.ap-south-1.amazonaws.com/v1/consignment/fe
 method : 'POST',
 headers :{
     'Content-type':'application/json'
-}
-body: JSON.stringify( { name : 'lokeshbagana@SpeechGrammarList.com'})
+},
+Bearer: {Token : "tTU3gFVUdP"},
+body: JSON.stringify( { name : 'lokeshbagana@gmail.com'})
 }).then(res=> {
     return res.json()
 })
